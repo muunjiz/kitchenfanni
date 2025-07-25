@@ -1,119 +1,438 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>فني مطابخ محترف بالرياض | تركيب وصيانة مطابخ فورميكا وألمونيوم - أبو وليد</title>
-
+  
   <!-- SEO Meta Tags -->
-  <meta name="description" content="أبو وليد - فني مطابخ محترف بالرياض يقدم خدمات تركيب وصيانة مطابخ فورميكا وألمونيوم بجودة عالية وأسعار تنافسية. اتصل الآن 0536077661." />
-  <meta name="keywords" content="فني مطابخ بالرياض, تركيب مطابخ, صيانة مطابخ, مطابخ فورميكا, مطابخ ألمونيوم, تركيب مطابخ بالرياض, تفصيل مطابخ, فني مطبخ، أبو وليد, صيانة مطبخ الرياض" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://kitchenfanni.online" />
+  <meta name="description" content="أبو وليد - فني مطابخ محترف بالرياض يقدم خدمات تركيب وصيانة مطابخ فورميكا وألمونيوم بجودة عالية وأسعار تنافسية. اتصل الآن 0536077661">
+  <meta name="keywords" content="فني مطابخ بالرياض, تركيب مطابخ, صيانة مطابخ, مطابخ فورميكا, مطابخ ألمونيوم, تركيب مطابخ بالرياض, تفصيل مطابخ, فني مطبخ، أبو وليد, صيانة مطبخ الرياض">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kitchenfanni.online">
 
-  <!-- Open Graph for social media -->
-  <meta property="og:title" content="فني مطابخ محترف بالرياض | تركيب وصيانة مطابخ فورميكا وألمونيوم - أبو وليد" />
-  <meta property="og:description" content="أبو وليد يقدم أفضل خدمات تركيب وصيانة مطابخ فورميكا وألمونيوم وخشب بالرياض. جودة عالية وأسعار تنافسية. اتصل الآن 0536077661." />
-  <meta property="og:image" content="https://kitchenfanni.online/img/preview.jpg" />
-  <meta property="og:url" content="https://kitchenfanni.online" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="فني مطابخ محترف بالرياض | تركيب وصيانة مطابخ فورميكا وألمونيوم - أبو وليد">
+  <meta property="og:description" content="أبو وليد يقدم أفضل خدمات تركيب وصيانة مطابخ فورميكا وألمونيوم وخشب بالرياض. جودة عالية وأسعار تنافسية. اتصل الآن 0536077661">
+  <meta property="og:image" content="https://kitchenfanni.online/img/preview.jpg">
+  <meta property="og:url" content="https://kitchenfanni.online">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
 
-  <!-- Styles -->
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
+    :root {
+      --primary-color: #01796f;
+      --secondary-color: #014d40;
+      --accent-color: #028a74;
+      --light-color: #f8f9fa;
+      --dark-color: #212529;
+      --text-color: #333;
+      --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --transition: all 0.3s ease;
+    }
+    
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
+    
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
+      font-family: 'Tajawal', 'Segoe UI', sans-serif;
+      background-color: var(--light-color);
+      color: var(--text-color);
+      line-height: 1.7;
       direction: rtl;
     }
+    
+    /* Header Styles */
     header {
-      background: linear-gradient(90deg, #01796f, #014d40);
-      color: #fff;
-      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      position: relative;
+      overflow: hidden;
     }
+    
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+    
     header h1 {
-      margin: 0;
       font-size: 2.5rem;
-      letter-spacing: 1px;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      background-color: #fff;
-      padding: 30px 25px;
-      border-radius: 10px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-    }
-    main h2 {
-      color: #01796f;
-      margin-bottom: 15px;
-      font-size: 1.8rem;
-      border-bottom: 3px solid #01796f;
-      padding-bottom: 10px;
-    }
-    main p {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
-    }
-    ul.services-list {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 25px;
-    }
-    ul.services-list li {
-      background: url('https://img.icons8.com/ios-filled/20/01796f/checkmark.png') no-repeat left center;
-      background-size: 18px;
-      padding-left: 30px;
-      margin-bottom: 15px;
-      font-weight: 600;
-      color: #014d40;
-    }
-    .contact-box {
-      background-color: #01796f;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      border-radius: 8px;
-      font-size: 1.3rem;
-      box-shadow: 0 4px 10px rgba(1, 121, 111, 0.4);
-    }
-    .contact-box a {
-      display: inline-block;
-      margin-top: 15px;
-      background-color: #028a74;
-      color: #fff;
-      text-decoration: none;
-      padding: 12px 30px;
+      margin-bottom: 1rem;
       font-weight: 700;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
     }
-    .contact-box a:hover {
-      background-color: #014d40;
+    
+    header p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 2rem;
     }
-    footer {
+    
+    .header-pattern {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="white"><circle cx="25" cy="25" r="3"/><circle cx="75" cy="25" r="3"/><circle cx="25" cy="75" r="3"/><circle cx="75" cy="75" r="3"/></svg>');
+      background-size: 30px 30px;
+    }
+    
+    /* Contact Box - Now at the top */
+    .contact-box {
+      background-color: white;
+      color: var(--dark-color);
+      border-radius: 10px;
+      padding: 2rem;
+      max-width: 500px;
+      margin: 2rem auto;
+      box-shadow: var(--shadow);
       text-align: center;
-      padding: 15px;
-      font-size: 14px;
-      color: #666;
-      margin-top: 40px;
+      position: relative;
+      z-index: 2;
     }
-    @media (max-width: 600px) {
+    
+    .contact-box h2 {
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+    }
+    
+    .contact-info {
+      margin-bottom: 1.5rem;
+    }
+    
+    .contact-info p {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+    
+    .contact-info i {
+      color: var(--primary-color);
+      margin-left: 8px;
+    }
+    
+    .contact-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem 1.5rem;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: var(--transition);
+      border: none;
+      cursor: pointer;
+    }
+    
+    .btn-primary {
+      background-color: var(--primary-color);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background-color: var(--secondary-color);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: white;
+    }
+    
+    .btn-whatsapp:hover {
+      background-color: #128C7E;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    .btn i {
+      margin-left: 8px;
+    }
+    
+    /* Main Content */
+    main {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    
+    .section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+    }
+    
+    .section-title {
+      color: var(--primary-color);
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--primary-color);
+      position: relative;
+    }
+    
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 100px;
+      height: 3px;
+      background-color: var(--accent-color);
+    }
+    
+    /* Services Section */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .service-card {
+      background-color: var(--light-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: var(--transition);
+      border: 1px solid #e9ecef;
+    }
+    
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      border-color: var(--primary-color);
+    }
+    
+    .service-icon {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+    
+    .service-card h3 {
+      color: var(--secondary-color);
+      margin-bottom: 1rem;
+    }
+    
+    /* Gallery Section */
+    .gallery-section {
+      margin: 3rem 0;
+    }
+    
+    .gallery-container {
+      position: relative;
+      margin: 2rem 0;
+    }
+    
+    .gallery-slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      gap: 1rem;
+      padding: 1rem 0;
+      scrollbar-width: none; /* Firefox */
+    }
+    
+    .gallery-slider::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
+    
+    .gallery-slide {
+      flex: 0 0 300px;
+      scroll-snap-align: start;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+    
+    .gallery-slide:hover {
+      transform: scale(1.03);
+    }
+    
+    .gallery-slide img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 0.8rem;
+      text-align: center;
+      font-weight: 600;
+    }
+    
+    .gallery-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .gallery-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: #ccc;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    
+    .gallery-dot.active {
+      background-color: var(--primary-color);
+    }
+    
+    /* Testimonials */
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .testimonial-card {
+      background-color: var(--light-color);
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow);
+      position: relative;
+    }
+    
+    .testimonial-card::before {
+      content: '\201C';
+      font-size: 4rem;
+      color: var(--primary-color);
+      opacity: 0.2;
+      position: absolute;
+      top: 0;
+      right: 1rem;
+      line-height: 1;
+    }
+    
+    .testimonial-content {
+      margin-bottom: 1rem;
+      font-style: italic;
+    }
+    
+    .testimonial-author {
+      font-weight: 700;
+      color: var(--secondary-color);
+    }
+    
+    /* Footer */
+    footer {
+      background-color: var(--secondary-color);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    
+    .social-links a {
+      color: white;
+      font-size: 1.5rem;
+      transition: var(--transition);
+    }
+    
+    .social-links a:hover {
+      color: var(--accent-color);
+      transform: translateY(-3px);
+    }
+    
+    .copyright {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      
+      header p {
+        font-size: 1rem;
+      }
+      
+      .contact-box {
+        padding: 1.5rem;
+      }
+      
+      .section {
+        padding: 1.5rem;
+      }
+      
+      .section-title {
+        font-size: 1.5rem;
+      }
+      
+      .services-grid, .testimonials {
+        grid-template-columns: 1fr;
+      }
+      
+      .gallery-slide {
+        flex: 0 0 250px;
+      }
+    }
+    
+    @media (max-width: 480px) {
       header h1 {
         font-size: 1.8rem;
       }
-      main {
-        margin: 20px 15px;
-        padding: 20px;
+      
+      .btn {
+        padding: 0.7rem 1rem;
+        font-size: 0.9rem;
+      }
+      
+      .gallery-slide {
+        flex: 0 0 200px;
       }
     }
   </style>
@@ -121,34 +440,227 @@
 <body>
 
 <header>
-  <h1>فني مطابخ محترف بالرياض - أبو وليد</h1>
+  <div class="header-pattern"></div>
+  <div class="header-content">
+    <h1>فني مطابخ محترف بالرياض</h1>
+    <p>أعمال تركيب وصيانة المطابخ باحترافية وجودة عالية مع ضمان على العمل</p>
+    
+    <!-- Contact Box at the Top -->
+    <div class="contact-box">
+      <h2>تواصل معنا الآن</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> 0536077661</p>
+        <p><i class="fas fa-map-marker-alt"></i> خدمة في جميع أنحاء الرياض</p>
+        <p><i class="fas fa-clock"></i> من 8 صباحاً إلى 10 مساءً</p>
+      </div>
+      <div class="contact-buttons">
+        <a href="tel:0536077661" class="btn btn-primary">
+          <i class="fas fa-phone"></i> اتصل الآن
+        </a>
+        <a href="https://wa.me/966536077661" class="btn btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> واتساب
+        </a>
+      </div>
+    </div>
+  </div>
 </header>
 
 <main>
-  <h2>خدمات تركيب وصيانة المطابخ بأعلى جودة</h2>
-  <p>إذا كنت تبحث عن فني مطابخ محترف في الرياض يقدم لك خدمات تركيب، صيانة، فك، وتركيب مطابخ ألمونيوم بجودة ممتازة وأسعار تنافسية، فأنت في المكان الصحيح.</p>
+  <!-- Services Section -->
+  <section class="section">
+    <h2 class="section-title">خدماتنا المميزة</h2>
+    <p>نقدم مجموعة متكاملة من خدمات المطابخ بجودة عالية وأسعار منافسة، مع ضمان على جميع أعمالنا.</p>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <h3>تركيب مطابخ فورميكا</h3>
+        <p>تركيب مطابخ فورميكا حديثة بأفضل الخامات والأسعار، مع ضمان ضد العيوب الصناعية.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-tools"></i>
+        </div>
+        <h3>صيانة المطابخ</h3>
+        <p>إصلاح كافة أعطال المطابخ من أدراج، أبواب، مفصلات، وأسطح عمل مع استخدام أفضل قطع الغيار.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-ruler-combined"></i>
+        </div>
+        <h3>تفصيل مطابخ</h3>
+        <p>تصميم وتنفيذ مطابخ حسب المقاسات والمساحة المتاحة مع تقديم استشارات مجانية.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-hammer"></i>
+        </div>
+        <h3>فك وتركيب المطابخ</h3>
+        <p>خدمة فك وتركيب المطابخ عند الانتقال من المنزل مع الحفاظ على جميع القطع.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-paint-roller"></i>
+        </div>
+        <h3>تجديد المطابخ القديمة</h3>
+        <p>إعادة تأهيل وتجديد المطابخ القديمة لتبدو كالجديدة بتكلفة أقل من الاستبدال.</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3>دعم فني واستشارات</h3>
+        <p>تقديم استشارات مجانية لاختيار أفضل المواد والتصاميم المناسبة لمساحة مطبخك.</p>
+      </div>
+    </div>
+  </section>
   
-  <ul class="services-list">
-    <li>تركيب مطابخ فورميكا حديثة بأحدث التصميمات</li>
-    <li>صيانة وفك وتركيب مطابخ ألمنيوم بشكل احترافي</li>
-    <li>تفصيل مطابخ حسب طلب العميل</li>
-    <li>تصليح الأعطال وترميم المطابخ القديمة</li>
-    <li>توفير استشارات تصميم لتناسب احتياجات منزلك</li>
-    <li>خدمة سريعة ووصول لكل أحياء الرياض</li>
-  </ul>
-
-  <p>فريق أبو وليد يتميز بالاحترافية والخبرة الطويلة في مجال المطابخ، هدفنا دائماً رضا العميل وتقديم أفضل جودة وأفضل سعر.</p>
-
-  <div class="contact-box">
-    <p>📞 للتواصل السريع مع أبو وليد:</p>
-    <a href="tel:0536077661">اتصل الآن 0536077661</a>
-    <a href="https://wa.me/966536077661">واتساب 0536077661</a>
-  </div>
+  <!-- Gallery Section -->
+  <section class="section gallery-section">
+    <h2 class="section-title">معرض أعمالنا</h2>
+    <p>بعض الأمثلة من أعمالنا السابقة التي نفخر بها ونضمن لكم نفس الجودة والدقة.</p>
+    
+    <div class="gallery-container">
+      <div class="gallery-slider">
+        <div class="gallery-slide">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="مطبخ فورميكا عصري">
+          <div class="gallery-caption">مطبخ فورميكا عصري</div>
+        </div>
+        <div class="gallery-slide">
+          <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="مطبخ ألمنيوم فاخر">
+          <div class="gallery-caption">مطبخ ألمنيوم فاخر</div>
+        </div>
+        <div class="gallery-slide">
+          <img src="https://images.unsplash.com/photo-1583845112203-4541b01c0c489?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="مطبخ خشب كلاسيكي">
+          <div class="gallery-caption">مطبخ خشب كلاسيكي</div>
+        </div>
+        <div class="gallery-slide">
+          <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="مطبخ أبيض لامع">
+          <div class="gallery-caption">مطبخ أبيض لامع</div>
+        </div>
+        <div class="gallery-slide">
+          <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="مطبخ رمادي عصري">
+          <div class="gallery-caption">مطبخ رمادي عصري</div>
+        </div>
+      </div>
+      
+      <div class="gallery-nav">
+        <div class="gallery-dot active"></div>
+        <div class="gallery-dot"></div>
+        <div class="gallery-dot"></div>
+        <div class="gallery-dot"></div>
+        <div class="gallery-dot"></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials Section -->
+  <section class="section">
+    <h2 class="section-title">آراء عملائنا</h2>
+    <p>هذه بعض الشهادات والتقييمات من عملائنا الكرام الذين كنا نعتز بخدمتهم.</p>
+    
+    <div class="testimonials">
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "أبو وليد قام بتركيب مطبخي الجديد بدقة واحترافية شديدة، وكان سعر العمل مناسب جداً مقارنة بالجودة المقدمة. أنصح الجميع بالتعامل معه."
+        </div>
+        <div class="testimonial-author">- أحمد السديري</div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "بعد البحث عن عدة فنيين، وجدت في أبو وليد الشخص المناسب لإصلاح مطبخي القديم. العمل تم بسرعة وجودة عالية، وأصبح المطبخ كالجديد تماماً."
+        </div>
+        <div class="testimonial-author">- سارة محمد</div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          "المطبخ الذي قام أبو وليد بتصميمه وتنفيذه تجاوز توقعاتي بكل المقاييس. الاهتمام بالتفاصيل والدقة في التنفيذ كانت ممتازة."
+        </div>
+        <div class="testimonial-author">- خالد الراشد</div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Final CTA Section -->
+  <section class="section" style="background-color: var(--primary-color); color: white;">
+    <h2 class="section-title" style="color: white; border-color: white;">جاهزون لمساعدتك</h2>
+    <p style="margin-bottom: 2rem; font-size: 1.2rem;">اتصل بنا الآن للحصول على استشارة مجانية أو لطلب الخدمة، وسنكون سعداء بخدمتك.</p>
+    
+    <div class="contact-buttons" style="justify-content: center;">
+      <a href="tel:0536077661" class="btn" style="background-color: white; color: var(--primary-color);">
+        <i class="fas fa-phone"></i> اتصل الآن
+      </a>
+      <a href="https://wa.me/966536077661" class="btn btn-whatsapp">
+        <i class="fab fa-whatsapp"></i> واتساب
+      </a>
+    </div>
+  </section>
 </main>
 
 <footer>
-  جميع الحقوق محفوظة © 2025 - أبو وليد لفني المطابخ بالرياض
+  <div class="footer-content">
+    <h3>أبو وليد - فني مطابخ الرياض</h3>
+    <p>نقدم أفضل خدمات تركيب وصيانة المطابخ في الرياض بجودة عالية وأسعار مناسبة</p>
+    
+    <div class="social-links">
+      <a href="#"><i class="fab fa-snapchat"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+    
+    <div class="copyright">
+      جميع الحقوق محفوظة &copy; <span id="year"></span>
+    </div>
+  </div>
 </footer>
+
+<script>
+  // Auto update copyright year
+  document.getElementById('year').textContent = new Date().getFullYear();
+  
+  // Simple gallery navigation
+  const dots = document.querySelectorAll('.gallery-dot');
+  const slider = document.querySelector('.gallery-slider');
+  
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      // Update active dot
+      dots.forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+      
+      // Scroll slider
+      const slideWidth = document.querySelector('.gallery-slide').offsetWidth;
+      slider.scrollTo({
+        left: index * (slideWidth + 16), // 16px is the gap
+        behavior: 'smooth'
+      });
+    });
+  });
+  
+  // Auto slide change
+  let currentSlide = 0;
+  setInterval(() => {
+    currentSlide = (currentSlide + 1) % dots.length;
+    dots.forEach(d => d.classList.remove('active'));
+    dots[currentSlide].classList.add('active');
+    
+    const slideWidth = document.querySelector('.gallery-slide').offsetWidth;
+    slider.scrollTo({
+      left: currentSlide * (slideWidth + 16),
+      behavior: 'smooth'
+    });
+  }, 5000);
+</script>
 
 </body>
 </html>
